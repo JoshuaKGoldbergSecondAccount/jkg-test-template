@@ -2,7 +2,9 @@ jobs:
   add_label:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions-ecosystem/action-add-labels@v1
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: "status: waiting for author"
 
