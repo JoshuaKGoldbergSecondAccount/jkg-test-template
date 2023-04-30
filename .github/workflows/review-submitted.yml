@@ -1,5 +1,5 @@
 jobs:
-  remove_label:
+  add_label:
     runs-on: ubuntu-latest
     steps:
       - uses: actions-ecosystem/action-add-labels@v1
