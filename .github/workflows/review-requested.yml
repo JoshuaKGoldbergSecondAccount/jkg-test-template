@@ -1,7 +1,6 @@
 jobs:
   remove_label:
-    permissions:
-      pull-requests: write
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - env:
