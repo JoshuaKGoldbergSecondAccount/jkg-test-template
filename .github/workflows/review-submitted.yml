@@ -4,7 +4,6 @@ jobs:
     steps:
       - uses: actions-ecosystem/action-add-labels@v1
         with:
-          fail_on_error: true
           labels: "status: waiting for author"
 
 name: Add Label On Review Submitted

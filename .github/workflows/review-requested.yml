@@ -4,7 +4,6 @@ jobs:
     steps:
       - uses: actions-ecosystem/action-remove-labels@v1
         with:
-          fail_on_error: true
           labels: "status: waiting for author"
 
 name: Remove Label On Review Requested
