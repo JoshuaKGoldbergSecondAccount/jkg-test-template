@@ -1,0 +1,14 @@
+jobs:
+  remove_label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          fail_on_error: true
+          labels: "status: waiting for author"
+
+name: Remove Label On Review Requested
+
+on:
+  pull_request:
+    types: [review_requested]
