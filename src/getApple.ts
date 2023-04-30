@@ -1,3 +1,3 @@
-export function createApple() {
+export function getApple() {
 	return "apple";
 }

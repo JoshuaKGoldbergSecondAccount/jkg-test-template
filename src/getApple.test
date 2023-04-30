@@ -1,12 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import { greet } from "./greet.js";
-
-const message = "Yay, testing!";
+import { getApple } from "./getApple.js";
 
 describe("getApple", () => {
 	it("returns 'apple'", () => {
-		const actual = greet(message);
+		const actual = getApple();
 
 		expect(actual).toBe("apple");
 	});
