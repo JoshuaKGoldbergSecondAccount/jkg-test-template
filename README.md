@@ -1,6 +1,6 @@
 <h1 align="center">Jkg Test Template</h1>
 
-<p align="center">Testing out my template; will delete.</p>
+<p align="center">Testing out my template; will delete soon.</p>
 
 <p align="center">
 	<a href="#contributors" target="_blank">
