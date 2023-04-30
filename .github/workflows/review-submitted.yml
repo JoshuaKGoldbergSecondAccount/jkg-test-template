@@ -1,10 +1,10 @@
 jobs:
-  remove_label:
+  add_label:
     runs-on: ubuntu-latest
     steps:
       - uses: actions-ecosystem/action-add-labels@v1
         with:
-          fail_on_error: true
+          github-token: ${{ secrets.ACCESS_TOKEN }}
           labels: "status: waiting for author"
 
 name: Add Label On Review Submitted
@@ -12,3 +12,5 @@ name: Add Label On Review Submitted
 on:
   pull_request_review:
     types: [submitted]
+
+permissions: write-all
