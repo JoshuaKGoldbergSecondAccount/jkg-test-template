@@ -12,5 +12,4 @@ on:
   pull_request:
     types: [review_requested]
 
-permissions:
-  pull-requests: write
+permissions: write-all
