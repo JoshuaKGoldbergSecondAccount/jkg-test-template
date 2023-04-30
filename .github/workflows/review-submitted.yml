@@ -1,5 +1,7 @@
 jobs:
   add_label:
+    permissions:
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - env:
