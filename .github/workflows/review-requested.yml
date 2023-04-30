@@ -4,7 +4,7 @@ jobs:
     steps:
       - uses: actions-ecosystem/action-remove-labels@v1
         with:
-          github-token: ${{ secrets.ACCESS_TOKEN }}
+          github_token: ${{ secrets.ACCESS_TOKEN }}
           labels: "status: waiting for author"
 
 name: Remove Label On Review Requested
