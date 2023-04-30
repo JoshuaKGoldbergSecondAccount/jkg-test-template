@@ -12,3 +12,6 @@ name: Remove Label On Review Requested
 on:
   pull_request:
     types: [review_requested]
+
+permissions:
+  pull-requests: write
